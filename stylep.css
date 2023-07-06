@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(42, 44, 44);
+  padding: 20px;
+}
+
+.logo-light {
+  width: 140px;
+  
+      
+}
