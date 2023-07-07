@@ -83,3 +83,35 @@
   background-color:#b91a1a;
   
 }
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+
+.about-title {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.title2 {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.para2 {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  color: rgb(44, 44, 41);
+}
+
+.para2-1 {
+  margin-top: 10px;
+}
+.para2-2 {
+  margin-bottom: 10px;
+}
