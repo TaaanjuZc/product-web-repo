@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Web</title>
+  <title>Account</title>
   <link rel="stylesheet" href="stylep.css">
+  <link rel="stylesheet" href="login.css">
 </head>
 <body>
-  <!--This is a nav bar section--> 
   <header class="header">
     <nav>
       <div class="container">
@@ -22,21 +22,22 @@
         </div>
       </div>
     </nav>
-   </header>
 
-   <main>
-    <section>
-      <div class="banner-container">
-        <div class="banner-text">
-          <h1 class="title">Best design for <br>your products.</h1>
-          <p class="para">UI refers to the screens, buttons, toggles, icons, and other visual elements <br>that you interact with when using a website, app, or other electronic device.</p>
-          <button class="btn1">Explore more</button>
-        </div>
-        <div class="banner-png">
-          <img class="ban-jpg" src="images/banner.png" alt="">
-        </div>
+
+    <main class="bg-img">
+      <div class="login-pag">
+        <form class="log-f"></form>
+        <h3 class="log">Login</h3>
+      
+        <div class="input">
+        <input class="box box-1" type="text" placeholder="Email">
+        <input class="box box-2" type="password" placeholder="Password">
+        <input class="box box-3" type="button" value="Login">
+        </div>  
+        
+        <p class="no-acc">Don't have an account? <a class="reg" href="reg"><b>register</b></a></p>
       </div>
-    </section>
-   </main>
+    
+    </main>
 </body>
 </html>
