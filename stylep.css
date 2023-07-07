@@ -116,11 +116,11 @@
   margin-bottom: 10px;
 }
 
-.box {
+.service-box {
   width: 230px;
   height: 280px;
-  box-shadow: 10px -5px 27px gray;
-  background-color: #1a1919;
+  box-shadow: 4px 4px 15px gray;
+  background-color: black;
   text-align: center;
   color: rgb(241, 223, 189);
   padding: 20px;
@@ -156,14 +156,13 @@
 
 .our-services {
     background-image: url("./images/background.png"),
-  linear-gradient(45deg, rgb(56, 56, 56), rgb(56, 56, 56));
+  linear-gradient(45deg, rgb(41, 41, 41), rgb(99, 99, 99));
   color: white;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.box {
+.service-box {
   border-radius: 15px;
-  
 }

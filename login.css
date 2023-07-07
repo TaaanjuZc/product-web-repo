@@ -5,7 +5,7 @@ body {
 }
 .login-pag {
 
-  width: 300px;
+width: 300px;
   color: white;
   position: absolute;
   top: 40%;
@@ -68,7 +68,7 @@ body {
   padding: 8px 0;
   margin: 8px 0;
   border-bottom: 1px solid rgb(150, 149, 149);
- 
+  
 }
 
 .box-3 {
