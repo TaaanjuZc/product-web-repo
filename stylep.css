@@ -6,10 +6,76 @@
 .container {
   background-color: rgb(42, 44, 44);
   padding: 20px;
+  color:rgb(252, 252, 252);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .logo-light {
   width: 140px;
-  
-      
+
 }
+
+.menus {
+  display: flex;
+  ;
+}
+
+.item {
+  margin-left: 10px;
+  padding-right: 10px;
+  font-size: 18px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: rgb(213, 214, 118);
+}
+
+.ban-jpg {
+  width: 350px;
+  
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-around;
+  background-image: url("./images/background.png"),
+   linear-gradient(45deg, rgb(8,8,8), rgb(87, 85, 85));
+  color: white;
+}
+
+.title {
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.para {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: rgb(224, 224, 199);
+}
+
+.btn1 {
+  background-color : rgb(185, 121, 98);
+  padding: 10px 15px;
+  color: rgb(224, 224, 199);
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+  
+}
+.button:hover {
+  background-color:#002ead;
+  transition: 0.7s;
+}
+
