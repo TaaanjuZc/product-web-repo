@@ -49,6 +49,9 @@
   background-image: url("./images/background.png"),
    linear-gradient(45deg, rgb(8,8,8), rgb(87, 85, 85));
   color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .title {
@@ -72,10 +75,9 @@
   border: none;
   border-radius: 11px;
   cursor: pointer;
-  
-}
-.button:hover {
-  background-color:#002ead;
   transition: 0.7s;
 }
-
+.btn1:hover {
+  background-color:#a51e1e;
+  
+}
